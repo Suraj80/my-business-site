@@ -11,8 +11,8 @@ export async function POST(request) {
             "Content-Type": "application/json",
         },
         body: JSON.stringify({
-            sender: { email: "you@yourdomain.com" },
-            to: [{ email: "you@yourdomain.com" }],
+            sender: { email: "Surajjangavali18@gmail.com" },
+            to: [{ email: "Surajjangavali18@gmail.com" }],
             subject: "New Contact Form",
             htmlContent: `<p>Name: ${name}</p><p>Email: ${email}</p><p>${message}</p>`,
         }),
